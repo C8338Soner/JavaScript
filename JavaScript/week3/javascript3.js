@@ -591,7 +591,7 @@
 // console.log(toplam);
 
 
-//let num = 5;
+/*let num = 5;
 const num = prompt("Enter a number:")
 let factor = 1;
 
@@ -599,4 +599,4 @@ for (i = 1; i<=num; i++){
   factor *= i;
 }
 console.log(factor);
-document.write(factor)
+document.write(factor)*/
