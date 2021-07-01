@@ -603,3 +603,99 @@
 // }
 // console.log(factor);
 // document.write(factor)
+
+//FUNCTİON
+
+// function küp(number) {
+//   return number * number * number;
+// }
+
+// let a = küp(5);   //calling a function
+
+// console.log (a); 
+
+
+
+// function square(number) {
+//   return number * number;
+// }
+
+// var a = square(prompt("enter a number"));   //calling a function
+
+// alert (a);
+
+
+// function square(number) {
+//   return number * number;
+// }
+
+// var a = square(prompt("enter"));   //calling a function
+
+// console.log (a);
+
+// if(a%2===0){
+//   console.log("hahaha");
+// }
+
+// let s = function (number) {return number * number};
+// let soner = s(6);   //calling a function
+
+// console.log (soner);
+
+
+// function square(number){
+//   return number * number;
+// }
+// console.log(square(5));
+
+
+
+// const square = new Function("number", "return number * number");
+
+// console.log(square(3));
+
+
+// function greet(name){
+//   console.log("Hello "+name);
+// }
+// greet(prompt("enter your name"));
+
+
+// function greet(name, lastName){
+//   alert("Hello "+name+" "+lastName);
+// }
+// greet(prompt("enter your name"), prompt("enter your lastname"));
+
+// function test(x, y) {
+//   if(x>y) {
+//   console.log(x);
+//   } else {
+//   console.log(y);
+//   }
+//   }
+//   test(7, 3);
+
+// function num() {
+//   return 5 + 7;
+//   }
+//   a = num()
+//   console.log(a);
+
+// var num = [7, 12, 143, 54, 37]
+
+
+// num.sort(function (a,b){});
+// console.log(num);
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+// console.log(fruits.sort());;
+
+// var num = [7, 12, 143, 54, 37,25,27,45,11,89,45]
+// num.sort();
+// console.log(num);
+
+
+//FUNCTİON IN CLASS
+
+
