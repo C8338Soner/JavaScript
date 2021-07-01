@@ -594,6 +594,12 @@
 // console.log(toplam);
 
 
+<<<<<<< HEAD
+=======
+/*let num = 5;
+const num = prompt("Enter a number:")
+let factor = 1;
+>>>>>>> 6b5b7d39a03ec078b2fac30a364bd578a6f9380d
 
 // const num = prompt("Enter a number:")
 // let factor = 1;
@@ -847,6 +853,7 @@ console.log(pascalNumber(9));
   if (n===1) return 1;
   return n + total(n-1);
 }
+<<<<<<< HEAD
 console.log(pascalNumber(7));*/
 
 // IMMEDIAETLY INVOKED  EXECUTE FUNCTION
@@ -866,3 +873,7 @@ console.log(result);*/
   console.log('result : ', sum);
 })(4);*/
 
+=======
+console.log(factor);
+document.write(factor)*/
+>>>>>>> 6b5b7d39a03ec078b2fac30a364bd578a6f9380d
