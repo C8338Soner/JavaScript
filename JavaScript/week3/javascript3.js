@@ -448,7 +448,7 @@
 // }
 
 // let brand = "Clarusway";
-// for (let i=0; j = brand.length; i<brand.length; i++; j--){
+// for (let i=0; j = brand.length; i<brand.length; i++, j--){
 //   console.log(i + 1, brand[i], i, brand[i], j , brand[j -1]);
 // } ARIZALI
 
@@ -483,13 +483,14 @@
 
 // let i = 0;
 // while(i<10) {
-//   if(!(i % 3 === 0)){
+//   if((i % 3 === 0 && i !==0)){
 //     console.log(i);
 //   }
   
 
 //   i++
 // }
+// console.log(i);
 
 
 
@@ -543,18 +544,19 @@
 // let text = "Clarusway";
 // let newText = "";
 // for( i = 0; i<text.length; i++){
-//   console.log(text[text.length - (i+1)]);
-//   newText = newText + text[text.length- ( i + 1)];
+//   let rText = text[text.length - (i+1)]
+//   console.log(rText);
+//   newText = newText + rText;
 // }
-// console.log(newText);
+//  console.log(newText);
 // document.write(newText);
 
 
 
-// let num = 1;
+
 // let text = "";
 
-// for(i = 0; i<=10; i++){
+// for(let i = 0; i<=10; i++){
 //   text = text+ i;
 //   console.log(text);
 // }
@@ -575,10 +577,11 @@
 // let adding = "";
 
 // for(i of number){
+    
 //   adding += i;
   
 // }
-// console.log(adding);
+// console.log(adding+".");
 
 
 
@@ -591,12 +594,12 @@
 // console.log(toplam);
 
 
-//let num = 5;
-const num = prompt("Enter a number:")
-let factor = 1;
 
-for (i = 1; i<=num; i++){
-  factor *= i;
-}
-console.log(factor);
-document.write(factor)
+// const num = prompt("Enter a number:")
+// let factor = 1;
+
+// for (i = 1; i<=num; i+=1){
+//   factor *= i;
+// }
+// console.log(factor);
+// document.write(factor)
