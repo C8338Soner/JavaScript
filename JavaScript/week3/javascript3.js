@@ -824,4 +824,45 @@ function sum(...args){
 console.log(sum(1,5,8,9));*/
 
 
+// FUNCTION EXPRESSION
+
+/*function sayHi1(){
+  return "hello from sayHi1"
+}
+
+console.log(sayHi1());
+
+const sayHi2 = function greet(){
+  return "Hello from sayHi2"
+}
+console.log(sayHi2());*/
+
+/*const pascalNumber = function(n){
+  return (n*(n+1)/2);
+}
+console.log(pascalNumber(9));
+*/
+
+/*const pascalNumber = function total(n){
+  if (n===1) return 1;
+  return n + total(n-1);
+}
+console.log(pascalNumber(7));*/
+
+// IMMEDIAETLY INVOKED  EXECUTE FUNCTION
+
+/*let result =(function triangle(num){
+    if(num === 1) return 1;
+  return num+ triangle(num-1);
+  })(100);
+console.log(result);*/
+
+/*(function (n){
+  var sum = 0;
+  while (n>=0){
+      sum += n;
+      n--;
+  }
+  console.log('result : ', sum);
+})(4);*/
 
