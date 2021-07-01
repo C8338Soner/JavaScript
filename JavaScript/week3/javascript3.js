@@ -689,7 +689,7 @@
 
 // const fruits = ["Banana", "Orange", "Apple", "Mango"];
 
-// console.log(fruits.sort());;
+// console.log(fruits.sort());
 
 // var num = [7, 12, 143, 54, 37,25,27,45,11,89,45]
 // num.sort();
@@ -697,5 +697,131 @@
 
 
 //FUNCTİON IN CLASS
+
+// function sum(a,b){
+//   return a+b;
+// }
+// let a = sum(12,3);
+// console.log("Result  :",a);
+
+
+// function addTwo(number){
+//   return number+2
+// }
+// console.log(addTwo(2));
+
+
+// function addTwo(number){
+//   return number+2
+// }
+// console.log(addTwo("2"));
+
+
+// function addTwo(number){
+//   return +number+2
+// }
+// console.log(addTwo("2"));
+
+// function addTwo(number){
+//   return number+2
+//   Number(number) // not execute (type conversion)
+// }
+// console.log(addTwo(2));
+
+
+
+// function selam(name){
+//   console.log(`Merhaba ${name}`);
+// }
+// selam("Soner")
+ //DRY Don't Rpeat Yourself
+
+
+//  function selam(name = "New User"){
+//   console.log(`Hello ${name}`);
+// }
+// selam()
+ 
+
+// function sayHi(myName){
+//   console.log(`Hello ${myName}`);
+//   myName = "Soner";
+//   console.log(`Hello ${myName}`);
+// }
+// let myName = "Serdar";
+// sayHi(myName)
+// console.log("outside function", myName);
+
+
+/*let student = {};
+student.name = "Serdar";
+function sayHi2(student){
+  console.log(`Hello ${student.name} entry point`);
+  student.name = "soner";
+  console.log(`Hello ${student.name} first point`);
+  student = {name: "Sibel"}
+  console.log(`Hello ${student.name} inside function`);
+}
+sayHi2(student)
+  console.log(`Hello ${student.name} from outside`)*/
+
+
+/*  function div ( num1, num2){
+    if(num2 === 0){
+      console.log("olmaz");
+
+    }else{
+      console.log(num1/num2);
+
+    }
+
+  }
+
+  div(10,0)*/
+
+  /*function div2(num1,num2){
+    if(num2===0)console.log("olmaaz");console.log(num1/num2);
+  }
+  div2(8,2)*/
+
+
+ /* function div2(num1, num2){
+    return num2 ? num1 / num2 : "Zero division Error"
+  }
+
+  console.log(div2(18,2));*/
+
+
+  /*function sum(a,b,...args){
+    return(a+b)
+  }
+  console.log(sum(1,5,8,9));// = 5  */
+
+  
+  /*function sum(a,b,...args){
+    //console.log(arguments);
+    let total = 0;
+    for(let i = 0; i<arguments.length; i++){
+      total += arguments[i];
+    }
+    
+
+    return(total)
+  }
+   console.log(sum(1,5,8,9));*/
+
+/*
+function sum(...args){
+  //console.log(arguments);
+  let total = 0;
+  for(let i = 0; i<arguments.length; i++){
+     total += arguments[i];
+    }
+    
+
+  return(total)
+}
+console.log(sum(1,5,8,9));*/
+
 
 
