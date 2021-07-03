@@ -976,7 +976,98 @@ console.log(a[9]);
 console.log(a[10]);
 console.log(a[11]);
 console.log(a[12]);
-console.log(a.charAt());*/
+console.log(a.charAt());
+console.log(a.charAt(a.length-1));*/
+
+//includes()
+
+/* let str = "Lorem Ipsum is simply dummy text of the printing and typesetting industry.";
+console.log(str.includes("simp"));
+console.log(str.includes("Simp"));
+console.log("Hello World".includes("ell")); */
+
+//indexOf()
+
+/* let str = "Lorem Ipsum is simply dummy text of the printing and typesetting industry.";
+let n = str.indexOf("simply");
+console.log(n); */
+
+//lastIndexOff()
+
+/* let str = "Lorem Ipsum is simply dummy text of the printing and typesetting industry.";
+console.log(str.length);
+console.log(str.lastIndexOf("t")); */
+
+//replace() ilk eşleşme değişir
+
+/* let s = "Lorem Ipsum is simply dummy text of the printing and 'printing' typesetting industry.";
+let rep = s.replace("printing", "Replace Method")
+console.log(rep); */
+
+//search()
+
+/* let s = "Lorem Ipsum is simply dummy text of the printing and 'printing' typesetting industry.";
+console.log(s.search("dummy"));
+console.log(s.search(/DUMMY/i)); */
+
+//slice()
+
+/* let s = "Lorem Ipsum is simply dummy text of the printing and 'printing' typesetting industry.";
+console.log(s.slice(0,5));
+console.log(s.slice(6,17));
+console.log(s.slice(14));
+console.log(s.slice(12,-25));
+ */
+
+//split()
+/* 
+let s = "Lorem Ipsum is simply dummy text of the printing and 'printing' typesetting industry.";
+//let arr = s.split("e");
+let arr = s.split("");
+console.log(arr); */
+
+//substr()
+
+/* let s = "Lorem Ipsum is simply dummy text of the printing and 'printing' typesetting industry.";
+console.log(s.substr(22,10));
+console.log(s.substr(22));
+console.log(s.substr(80, 100)); */
+
+//substring()iki index arasını ayırır
+/* let s = "Lorem Ipsum is simply dummy text of the printing and 'printing' typesetting industry.";
+console.log(s.substring(22,32)); */
+
+//toLowerCase()
+
+/* let s = "Lorem Ipsum is simply dummy text";
+console.log(s.toLowerCase()); */
+
+//toUpperCase()
+
+/* let s = "Lorem Ipsum is simply dummy text";
+console.log(s.toUpperCase()); */
+
+//yerel harflerin çeviri
+
+/* let pangram = "pijamalı hasta yağız şoföre çabucak güvendi"
+console.log(pangram.toUpperCase());
+console.log(pangram.toLocaleUpperCase()); */
+
+//trim() başta ve sondaki boşlukları siler
+let s = "                 <-Welcome \t to Clarus\tway->                 "
+console.log(s);
+console.log(s.trim());
+console.log(s.trimLeft());
+
+
+
+
+
+
+
+
+
+
 
 
 
