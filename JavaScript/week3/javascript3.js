@@ -594,12 +594,11 @@
 // console.log(toplam);
 
 
-<<<<<<< HEAD
-=======
+
 /*let num = 5;
 const num = prompt("Enter a number:")
 let factor = 1;
->>>>>>> 6b5b7d39a03ec078b2fac30a364bd578a6f9380d
+
 
 // const num = prompt("Enter a number:")
 // let factor = 1;
@@ -873,7 +872,115 @@ console.log(result);*/
   console.log('result : ', sum);
 })(4);*/
 
-=======
-console.log(factor);
-document.write(factor)*/
->>>>>>> 6b5b7d39a03ec078b2fac30a364bd578a6f9380d
+//ARROW FUNCTION
+
+/*const squre = (x)=>x**2;
+console.log(squre(7));*/
+
+
+/*function add100 (a){
+  return a+100;
+}
+console.log(add100(5));*/
+
+/*const arrow = (a) =>{
+  return a + 100;
+  
+}
+console.log(arrow(2));*/
+
+/*const arrow = a => a+100;
+console.log(arrow(2));*/
+
+/*const user = "Mark";
+const sayHi = (user = "New User") => `Welcome ${user}`
+console.log(sayHi("Soner"))*/
+
+
+//Zero Division Error:
+/*const div = (num1,num2) => num1/num2;
+
+console.log(div(18,3));*/
+
+/*const div = (num1,num2) => {
+  if(num2===0){
+    return "Zero div error";
+  }
+  return num1/num2
+}
+
+console.log(div(18,0));*/
+
+/*const div = (num1,num2) => num2 === 0? "Zero div error":num1/num2;
+console.log(div(1,0));*/
+
+/*const div = (num1,num2) => num2 ? num1/num2: "Zero div error";
+console.log(div(1,0));*/
+
+/*const calcArea = radius =>3.14*radius**2;
+console.log(calcArea(5));*/
+
+//This Method
+
+/* const cat = {
+  name: 'Muezza',
+  age: 8,
+  whatName() {
+      return this.name
+  }
+};
+console.log(cat.whatName());  // Output: Muezza */
+
+/* const car = () => {"make":"BMW"}
+console.log(car());// undifiend */
+
+/* const car = () => ({"make":"BMW"})
+console.log(car());// ({"make":"BMW"}) */
+
+//ARROW Functıon wıth iief
+/* const iief = (num=>num+5)(10);
+console.log(iief); */
+
+//STRING methods
+/* let str1 = "Hello";
+let str2 = "World";
+let str3 = `Hello World`;
+let str4 = new String("A string Object");
+let str5 = String(123);
+console.log(typeof(str1));
+console.log(typeof(str2));
+console.log(typeof(str3));
+console.log(typeof(str4));
+console.log(typeof(str5));
+console.log(str4);
+console.log(str5); */
+
+//length
+
+/* console.log("Hello World".length); */
+
+//concat
+/* let s1 = "hello";
+let s2 = "world";
+let s3 = s1.concat(s2);
+console.log({s1});
+console.log({s2});
+console.log({s3}); */
+
+//charAt()
+let a = "primitive.\nlerin propertileri  veya methodu olmaz";
+/* console.log(a.charAt(0));
+console.log(a[0]);
+console.log(a);
+console.log(a[9]);
+console.log(a[10]);
+console.log(a[11]);
+console.log(a[12]);
+console.log(a.charAt());*/
+
+
+
+
+
+
+
