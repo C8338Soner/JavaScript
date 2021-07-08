@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: aquamarine;
+  background: url("./assets/javascript-dersleri-1280x720.jpg");
 }
 
 #header {

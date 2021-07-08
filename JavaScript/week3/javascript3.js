@@ -1,254 +1,269 @@
-// let x = 100 + 50 * 3;
-// console.log(x);
+/* let x = 100 + 50 * 3;
+console.log(x); */
 
-// console.log(0 && "");//=0
+/* console.log(0 && "");//=0 */
 
-// let x = 2 && false;
-// console.log(x); // = false
+/* let x = 2 && false;
+console.log(x); // = false */
 
 // OR OPERATOR 
 
-// let y = 2 || 3;
-// console.log(y);//=2
+/* let y = 2 || 3;
+console.log(y);//=2 */
 
 
-// let password = "pass";
-// console.log(password.length);// = 4 pass 4 hane
+/* let password = "pass";
+console.log(password.length);// = 4 pass 4 hane
+ */
 
-// let password = "passqq";
-// console.log(password.length >5);//=true password 5 den büyük
+/* let password = "passqq";
+console.log(password.length >5);//=true password 5 den büyük
+ */
 
-// let password = "passqq";
-// console.log(password.length >5 && password.includes("@"));// includes = içinde var mı sonucu false
+/* let password = "passqq";
+console.log(password.length >5 && password.includes("@"));// includes = içinde var mı sonucu false */
 
-// let password = "passqq";
-// console.log(password.length >5 || password.includes("@")); // = true
+/* let password = "passqq";
+console.log(password.length >5 || password.includes("@")); // = true */
 
-// let password = "p@s";
-// console.log(password.length >=8 || password.includes("@") && password.length > 5);// and kritik sunuç false
+/* let password = "p@s";
+console.log(password.length >=8 || password.includes("@") && password.length > 5);// and kritik sunuç false */
 
-// let password = "password";
-// console.log(password.length >=8 || password.includes("@") && password.length > 5);//= true
+/* let password = "password";
+console.log(password.length >=8 || password.includes("@") && password.length > 5);//= true */
 
-// console.log(1 && true);
-
+/* console.log(1 && true);
+ */
 //NULLISH OPERATORS
 
-// var a= null;
-// console.log(a ?? "hello");//= hello
+/* var a= null;
+console.log(a ?? "hello");//= hello */
 
 
-// var a=0;
-// console.log(a ?? "hello");
+/* var a=0;
+console.log(a ?? "hello"); */
 
 //Conditional  Statement
 
-// let score = 50 ;
-// if (score >= 50){
-//     console.log("congratulate");
-// }
+/* let score = 50 ;
+if (score >= 50){
+    console.log("congratulate");
+} */
 
-// let score = 49 ;
-// if (!(score >= 50)){
-//     console.log("congratulate");
-// }
+/* let score = 49 ;
+if (!(score >= 50)){
+    console.log("congratulate");
+}
+ */
 
-// let score = 50 ;
-// if (score >= 50){
-//     console.log("congratulate");
-// }
+/* let score = 50 ;
+if (score >= 50){
+    console.log("congratulate");
+} */
 
-// let score = 50 ;
-// if (score >= 80){
-//     console.log("congratulate");
-// } else{
-//     console.log("work hard");
+/* let score = 50 ;
+if (score >= 80){
+    console.log("congratulate");
+} else{
+    console.log("work hard");
+} */
 
 //ternary 
-//  score >80 ? console.log("congratulate") : console.log("work hard");
-// let score = 90;
-// if(score >=90){
-//     console.log("a");
-// }else{
-//     console.log("b");
-// }
 
-// let score = prompt("sınavdan kaç aldın?");// 
-
-// 40
-// if (score > 80){
-//     console.log("congratulate");
-// } else if(score>=50){
-//     console.log("ehh!");
-
-// }else{
-//     console.log("work hard");
-// }
-
-// console.log("yuppi!");
+/* let score = 90;
+if(score >=90){
+  console.log("a");
+}else{
+  console.log("b");
+} */
 
 
-// let userName;
-// userName ? console.log(`Hello ${userName}`): console.log("please login");// please login
+/* let score1 = 70;
+score1 > 80 ? console.log("congratulate") : console.log("work hard"); */
 
-// let userName = "Soner";
-// userName ? console.log(`Hello ${userName}`): console.log("please login");// = Hello Soner
+/* let score = prompt("sınavdan kaç aldın?");// 
 
-// let userName = "Soner";
-// userName ? console.log("Hello ${userName}"): console.log("please login");// = Hello ${userName}
+
+if (score > 80){
+    console.log("congratulate");
+    if(score>=85){
+      console.log("wooaavv");
+    
+      }
+    }
+} else if(score>=50){
+    console.log("ehh!");
+
+}else{
+    console.log("work hard");
+} */
+
+
+
+/* let userName;
+userName ? console.log(`Hello ${userName}`): console.log("please login");// please login */
+
+/* let userName = "Soner";
+userName ? console.log(`Hello ${userName}`): console.log("please login");// = Hello Soner */
+
+/* let userName = "Soner";
+userName ? console.log("Hello ${userName}"): console.log("please login");// = Hello ${userName} (``) */
 
 
 // if else if ternary
-// let score = 100;
-// score >80 ? console.log("congratulate") :
-// score >= 50 ? console.log("ehh"): console.log("work hard");// = work hard
 
+
+/* let score = 100;
+score > 80 ? console.log("congratulate") : console.log("work hard"); */
 
 //switch Statement
 
+/* var text;
+var fruits = "lemon";
+fruits = fruits.toLowerCase();
+switch(fruits){
+    case"banana":
+        text= "bana is good";
+        break;
+    case "lemon":
+    case "orange":
+        text = "I am not a fan of orange.";
+        break;
+    case "apple":
+        text = "how you like them apples?";
+        break;
+    default:
+        text = "I have never heard of that fruits";
+
+}
+console.log(text);
+ */
+
+/* var text;
+var weekdays = prompt("gün girin");
+weekdays = weekdays.toLowerCase();
+
+switch(weekdays){
+    case"pazartesi":
+    case"salı":
+    case"çarşamba":
+    case"perşembe":
+        text = "inclass";
+        break;
+    case"cuma":
+    case"cumartesi":
+        text = "teamwork"
 
 
-// var text;
-// var fruits = "lemon";
-// fruits = fruits.toLowerCase();
-// switch(fruits){
-//     case"banana":
-//         text= "bana is good";
-//         break;
-//     case "lemon":
-//     case "orange":
-//         text = "I am not a fan of orange.";
-//         break;
-//     case "apple":
-//         text = "how you like them apples?";
-//         break;
-//     default:
-//         text = "I have never heard of that fruits";
+    default:
+        text = "tatil";
 
-// }
-// console.log(text);
-
-// var text;
-// var weekdays = prompt("gün girin");
-// weekdays = weekdays.toLowerCase();
-
-// switch(weekdays){
-//     case"pazartesi":
-//     case"salı":
-//     case"çarşamba":
-//     case"perşembe":
-//         text = "inclass";
-//         break;
-//     case"cuma":
-//     case"cumartesi":
-//         text = "teamwork"
+}
+console.log(text); */
 
 
-//     default:
-//         text = "tatil";
+/* let number1;
+number1 = prompt("1. sayı gir:")
+let number2;
+number2 = prompt("2.sayıyı gir:")
+let number3;
+number3 = prompt("3.sayıyı gir:")
 
-// }
-// console.log(text);
+let result = number1*number2*number3
 
+if(result > 0){
+    console.log("Sign = + ");
+}else{
+    console.log("Sign =  - ");
+} */
 
-// let x;
-// x = prompt("1. sayı gir:")
-// let number2;
-// number2 = prompt("2.sayıyı gir:")
-// let number3;
-// number3 = prompt("3.sayıyı gir:")
-
-// let result = number1*number2*number3
-
-// if(result > 0){
-//     document.write("Sign = + ");
-// }else{
-//     document.write("Sign =  - ");
-// }
-
-// var num1, num2;
-// num1 = window.prompt("Input the First integer", "0");
-// num2 = window.prompt("Input the second integer", "0");
+/* var num1, num2;
+num1 = window.prompt("Input the First integer", "0");
+num2 = window.prompt("Input the second integer", "0");
                                                  
-// if(parseInt(num1, 10) > parseInt(num2, 10)) 
-//   { 
-//   console.log("The larger of "+ num1+ " and "+ num2+ " is "+ num1+ ".");
-//   }   
-// else
-//   if(parseInt(num2, 10) > parseInt(num1, 10)) 
-//   {
-//   console.log("The larger of "+ num1+" and "+ num2+ " is "+ num2+ ".");
-//   }                  
-// else
-//   {
-//    console.log("The values "+ num1+ " and "+num2+ " are equal.");
-//   }
+if(parseInt(num1, 10) > parseInt(num2, 10)) 
+  { 
+  console.log("The larger of "+ num1+ " and "+ num2+ " is "+ num1+ ".");
+  }   
+else
+  if(parseInt(num2, 10) > parseInt(num1, 10)) 
+  {
+  console.log("The larger of "+ num1+" and "+ num2+ " is "+ num2+ ".");
+  }                  
+else
+  {
+   console.log("The values "+ num1+ " and "+num2+ " are equal.");
+  } */
 
-// let number1;
-// number1 = prompt("1. sayı gir:")
-// let number2;
-// number2 = prompt("2.sayıyı gir:")
-// let number3;
-// number3 = prompt("3.sayıyı gir:")
+//girilen sayıları sıralar
+
+/*let number1;
+number1 = prompt("1. sayı gir:")
+let number2;
+number2 = prompt("2.sayıyı gir:")
+let number3;
+number3 = prompt("3.sayıyı gir:")
 
 
 
-// if(number1 > number2 && number1 > number3){
-//         if(number2 > number3) {
-//             console.log(number1 + number2 + number3);
-//         }else{
-//             console.log(number1 + number3 + number2);
-//         }
+if(number1 > number2 && number1 > number3){
+        if(number2 > number3) {
+            console.log(number1 + number2 + number3);
+        }else{
+            console.log(number1 + number3 + number2);
+        }
     
-// }else if( number2 > number1 && number2 > number3){
-//         if(number1 > number3){
-//             console.log(number2 + number1 + number3);
-//         }else{
-//             console.log(number2 + number3 + number1);
-//         }
-// }else if (number3 > number2 && number3 > number1) {
-//         if (number2 > number1){
-//             console.log(number3 + number2 + number1 );
-//         }else{
-//             console.log(number3 + number1 + number2);
-//         }
-// }
+}else if( number2 > number1 && number2 > number3){
+        if(number1 > number3){
+            console.log(number2 + number1 + number3);
+        }else{
+            console.log(number2 + number3 + number1);
+        }
+}else if (number3 > number2 && number3 > number1) {
+        if (number2 > number1){
+            console.log(number3 + number2 + number1 );
+        }else{
+            console.log(number3 + number1 + number2);
+        }
+}
+ */
+
+/* 
+let a = 5;
+let b = 10;
+console.log(`Fifteen is ${a + b} and
+not ${2 * a + b}.`); */
 
 
-// let a = 5;
-// let b = 10;
-// console.log(`Fifteen is ${a + b} and
-// not ${2 * a + b}.`);
+/* let person = 'Mike';
+let age = 28;
 
-// let person = 'Mike';
-// let age = 28;
+function myTag(strings, personExp, ageExp) {
+  let str0 = strings[0]; // "That "
+  let str1 = strings[1]; // " is a "
+  let str2 = strings[2]; // "."
 
-// function myTag(strings, personExp, ageExp) {
-//   let str0 = strings[0]; // "That "
-//   let str1 = strings[1]; // " is a "
-//   let str2 = strings[2]; // "."
+  let ageStr;
+  if (ageExp > 99){
+    ageStr = 'centenarian';
+  } else {
+    ageStr = 'youngster';
+  }
 
-//   let ageStr;
-//   if (ageExp > 99){
-//     ageStr = 'centenarian';
-//   } else {
-//     ageStr = 'youngster';
-//   }
+  // We can even return a string built using a template literal
+  return `${str0}${personExp}${str1}${ageStr}${str2}`;
+}
 
-//   // We can even return a string built using a template literal
-//   return `${str0}${personExp}${str1}${ageStr}${str2}`;
-// }
+let output = myTag`That ${ person } is a ${ age }.`;
 
-// let output = myTag`That ${ person } is a ${ age }.`;
+console.log(output);
+// That Mike is a youngster.
+let text = "";
+for (let i = 0; i < 5; i++){
+    text += i + "<br>";
 
-// console.log(output);
-// // That Mike is a youngster.
-// let text = "";
-// for (let i = 0; i < 5; i++){
-//     text += i + "<br>";
-
-// }
-// document.write(text);
+}
+document.write(text); */
 
 // let i = -6;
 // let sum = 0;
@@ -942,6 +957,7 @@ console.log(car());// ({"make":"BMW"}) */
 console.log(iief); */
 
 //STRING methods
+
 /* let str1 = "Hello";
 let str2 = "World";
 let str3 = `Hello World`;
@@ -968,8 +984,8 @@ console.log({s2});
 console.log({s3}); */
 
 //charAt()
-let a = "primitive.\nlerin propertileri  veya methodu olmaz";
-/* console.log(a.charAt(0));
+/* let a = "primitive.\nlerin propertileri  veya methodu olmaz";
+console.log(a.charAt(0));
 console.log(a[0]);
 console.log(a);
 console.log(a[9]);
@@ -977,8 +993,8 @@ console.log(a[10]);
 console.log(a[11]);
 console.log(a[12]);
 console.log(a.charAt());
-console.log(a.charAt(a.length-1));*/
-
+console.log(a.charAt(a.length-1));
+ */
 //includes()
 
 /* let str = "Lorem Ipsum is simply dummy text of the printing and typesetting industry.";
@@ -989,9 +1005,9 @@ console.log("Hello World".includes("ell")); */
 //indexOf()
 
 /* let str = "Lorem Ipsum is simply dummy text of the printing and typesetting industry.";
-let n = str.indexOf("simply");
-console.log(n); */
-
+let n = str.indexOf("em");
+console.log(n);
+ */
 //lastIndexOff()
 
 /* let str = "Lorem Ipsum is simply dummy text of the printing and typesetting industry.";
@@ -1005,37 +1021,38 @@ let rep = s.replace("printing", "Replace Method")
 console.log(rep); */
 
 //search()
-
-/* let s = "Lorem Ipsum is simply dummy text of the printing and 'printing' typesetting industry.";
+/* 
+let s = "Lorem Ipsum is simply dummy text of the printing and 'printing' typesetting industry.";
 console.log(s.search("dummy"));
 console.log(s.search(/DUMMY/i)); */
 
 //slice()
 
 /* let s = "Lorem Ipsum is simply dummy text of the printing and 'printing' typesetting industry.";
-console.log(s.slice(0,5));
+console.log(s.slice(0));
 console.log(s.slice(6,17));
 console.log(s.slice(14));
-console.log(s.slice(12,-25));
- */
+console.log(s.slice(-12,-20)); */
+
 
 //split()
-/* 
-let s = "Lorem Ipsum is simply dummy text of the printing and 'printing' typesetting industry.";
+
+/* let s = "Lorem Ipsum is simply dummy text of the printing and 'printing' typesetting industry.";
 //let arr = s.split("e");
 let arr = s.split("");
 console.log(arr); */
 
 //substr()
 
-/* let s = "Lorem Ipsum is simply dummy text of the printing and 'printing' typesetting industry.";
+/*  let s = "Lorem Ipsum is simply dummy text of the printing and 'printing' typesetting industry.";
 console.log(s.substr(22,10));
 console.log(s.substr(22));
-console.log(s.substr(80, 100)); */
+console.log(s.substr(1, 6)); */
 
 //substring()iki index arasını ayırır
-/* let s = "Lorem Ipsum is simply dummy text of the printing and 'printing' typesetting industry.";
-console.log(s.substring(22,32)); */
+
+/*  let s = "Lorem Ipsum is simply dummy text of the printing and 'printing' typesetting industry.";
+console.log(s.substring(1));  */
 
 //toLowerCase()
 
@@ -1054,12 +1071,190 @@ console.log(pangram.toUpperCase());
 console.log(pangram.toLocaleUpperCase()); */
 
 //trim() başta ve sondaki boşlukları siler
-let s = "                 <-Welcome \t to Clarus\tway->                 "
+/* let s = "                 <-Welcome \t to Clarus\tway->                 "
 console.log(s);
 console.log(s.trim());
-console.log(s.trimLeft());
+console.log(s.trimLeft()); */
 
 
+//ASSİGNMENT
+/* let text = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam minus eaque consectetur. Libero, doloribus, quam minus nisi cumque excepturi vero, quod et quas neque in. ";
+
+let userChoose =prompt(text + "\nwhich letter: ")
+
+//convert the user choose to lower case.
+
+let choosen = userChoose.toLowerCase();
+
+//choose subtraction math operator. Convert the text to lower case and split the text one by one with empty ("") and grouping with sort() methots. firstly take last index of character and secondly take first character. finaly subtraction
+
+let newText = (text.toLowerCase(). split("").sort().lastIndexOf(choosen)+1)-(text.toLowerCase().split("").sort().indexOf(choosen));
+
+alert(userChoose + " letter :  "+ newText + " times repat"); */
+
+//ASSIGNMENT 
+//Fibonacci
+/* num = prompt("Kaca kadar fibonaci hesaplasin?")
+function fibonacci(num)
+    {
+      if (num <= 1) return 1
+      return fibonacci(num - 1) + fibonacci(num - 2);
+    }
+console.log(`Fibonacci(${num}):` + fibonacci(num)); */
+
+// reverse strin without join()
+
+/* function reverseString(str) {  
+  var newString = "";  
+  for (var i = str.length - 1; i >= 0; i--) { 
+      newString += str[i]; 
+  
+  return newString; 
+}
+
+reverseString('hello'); */
+
+//FIND BIG NUMBER
+
+/* let seri=[414,5,95,62,615,33,321,3,781,140,58,1,154];
+    let en=seri[0];
+    for(let i=0;i<seri.length;i++){
+        if(seri[i]>en)
+        {
+            en=seri[i];
+        }
+    }
+    console.log(en); */
+/* var arr = [5, 5, 5, 2, 2, 2, 2, 2, 9, 4];
+var counts = {};
+
+for (var i = 0; i < arr.length; i++) {
+  var num = arr[i];
+  counts[num] ? counts[num] + 1 : 1;
+}
+
+console.log(arr);
+ */
+
+// ARRAY METHODS
+/* 
+var colors=["Red" ,"Yellow", "Green", "Blue"];
+colors.splice(0,0, "White", "Pink");
+console.log(colors); */
+
+
+/* var colors = ["Red" ,"Yellow", "Green", "Blue"];
+var newColors = colors.slice(0, 2);
+console.log(newColors); 
+console.log(colors); */
+ 
+/* var colors = ["Red" ,"Yellow", "Green", "Blue", "Pink", "Green","Black","Pink"];
+var x = colors.lastIndexOf("Green", 1);
+console.log(x); */
+
+
+//ARRAY METHODS EXERCİSES "W3RESOURCE"
+
+/* let isArray = function(input){
+  if (toString.call(input)=== "[object Array]");
+    return true;
+  return false;
+
+};
+console.log(isArray("Soner"));
+console.log([1,2,3,4,5]);
+ */
+
+
+/* function myFunc(stringOrArray)
+{
+  var arr = [].concat(stringOrArray);
+
+  console.log(arr);
+
+  arr.forEach(function(item, i)
+  {
+    console.log(i, "=", item);
+  })
+}
+
+myFunc("one string");
+
+myFunc(["one string", "second", "third"]); */
+
+
+//MDN ARRAY examples
+
+
+
+/*console.log(fruits.length) */
+
+/* let fruits = ['Apple', 'Banana','pineapple'];
+let first = fruits[0]
+let last = fruits[fruits.length - 1]
+console.log({first},{last}); */
+
+//forEach
+/* let fruits = ['Apple', 'Banana','pineapple'];
+fruits.forEach(function(item, index, array) {
+  console.log(item, index)
+})
+ */
+//push()
+
+
+/* let fruits = ['Apple', 'Banana','pineapple'];
+fruits.push('Orange')
+console.log(fruits); */
+
+//pop()
+/* let fruits = ['Apple', 'Banana','pineapple'];
+let last = fruits.pop()
+console.log(fruits);
+console.log(last);
+ */
+
+
+//shift()
+/* let fruits = ['Apple', 'Banana','pineapple'];
+let first = fruits.shift()
+console.log(fruits);
+console.log(first); */
+
+
+//unshift()
+
+/* let fruits = ['Apple', 'Banana','pineapple'];
+let newLength1 = fruits.unshift('Banana')
+console.log(fruits);
+console.log(newLength1); */
+
+//indexOf()
+/* let fruits = ['Apple', 'Banana','pineapple']
+fruits.push('Mango')
+let pos = fruits.indexOf("Mango")
+console.log(pos); */
+
+//splice()
+
+/* let fruits = ['Apple', 'Banana','pineapple', 'Mango']
+let removeItems = fruits.splice(1,0,"Lemon")
+console.log(fruits); */
+
+//LESSON 9
+/* const cars = ["audi", "opel", "fiat"]
+console.log(typeof cars);
+console.log(cars); */
+
+
+/* const numbers = new Array(2,10)
+console.log(numbers); */
+
+/* const numbers = new Array(10)
+console.log(numbers);//WARNING */
+
+const cars = ["audi", "opel", "fiat"]
+console.log(cars.length);
 
 
 
